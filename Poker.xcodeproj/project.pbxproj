@@ -1,0 +1,211 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B7162B0315AE5CB8007A23BD /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B7162B0215AE5CB8007A23BD /* main.cpp */; };
+		B7162B0515AE5CB8007A23BD /* Poker.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = B7162B0415AE5CB8007A23BD /* Poker.1 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		B7162AFC15AE5CB8007A23BD /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				B7162B0515AE5CB8007A23BD /* Poker.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		B7162AFE15AE5CB8007A23BD /* Poker */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Poker; sourceTree = BUILT_PRODUCTS_DIR; };
+		B7162B0215AE5CB8007A23BD /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		B7162B0415AE5CB8007A23BD /* Poker.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = Poker.1; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B7162AFB15AE5CB8007A23BD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B7162AF315AE5CB7007A23BD = {
+			isa = PBXGroup;
+			children = (
+				B7162B0115AE5CB8007A23BD /* Poker */,
+				B7162AFF15AE5CB8007A23BD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B7162AFF15AE5CB8007A23BD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B7162AFE15AE5CB8007A23BD /* Poker */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B7162B0115AE5CB8007A23BD /* Poker */ = {
+			isa = PBXGroup;
+			children = (
+				B7162B0215AE5CB8007A23BD /* main.cpp */,
+				B7162B0415AE5CB8007A23BD /* Poker.1 */,
+			);
+			path = Poker;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B7162AFD15AE5CB8007A23BD /* Poker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B7162B0815AE5CB8007A23BD /* Build configuration list for PBXNativeTarget "Poker" */;
+			buildPhases = (
+				B7162AFA15AE5CB8007A23BD /* Sources */,
+				B7162AFB15AE5CB8007A23BD /* Frameworks */,
+				B7162AFC15AE5CB8007A23BD /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Poker;
+			productName = Poker;
+			productReference = B7162AFE15AE5CB8007A23BD /* Poker */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B7162AF515AE5CB7007A23BD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+				ORGANIZATIONNAME = "First Flight High School";
+			};
+			buildConfigurationList = B7162AF815AE5CB7007A23BD /* Build configuration list for PBXProject "Poker" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = B7162AF315AE5CB7007A23BD;
+			productRefGroup = B7162AFF15AE5CB8007A23BD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B7162AFD15AE5CB8007A23BD /* Poker */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B7162AFA15AE5CB8007A23BD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B7162B0315AE5CB8007A23BD /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		B7162B0615AE5CB8007A23BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		B7162B0715AE5CB8007A23BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		B7162B0915AE5CB8007A23BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B7162B0A15AE5CB8007A23BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B7162AF815AE5CB7007A23BD /* Build configuration list for PBXProject "Poker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B7162B0615AE5CB8007A23BD /* Debug */,
+				B7162B0715AE5CB8007A23BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B7162B0815AE5CB8007A23BD /* Build configuration list for PBXNativeTarget "Poker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B7162B0915AE5CB8007A23BD /* Debug */,
+				B7162B0A15AE5CB8007A23BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B7162AF515AE5CB7007A23BD /* Project object */;
+}
