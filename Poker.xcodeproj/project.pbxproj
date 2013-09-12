@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		B7162B0315AE5CB8007A23BD /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B7162B0215AE5CB8007A23BD /* main.cpp */; };
 		B7162B0515AE5CB8007A23BD /* Poker.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = B7162B0415AE5CB8007A23BD /* Poker.1 */; };
+		B7162B0D15AE6052007A23BD /* poker.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B7162B0C15AE6052007A23BD /* poker.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -28,6 +29,8 @@
 		B7162AFE15AE5CB8007A23BD /* Poker */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Poker; sourceTree = BUILT_PRODUCTS_DIR; };
 		B7162B0215AE5CB8007A23BD /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		B7162B0415AE5CB8007A23BD /* Poker.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = Poker.1; sourceTree = "<group>"; };
+		B7162B0B15AE5D03007A23BD /* poker.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = poker.h; sourceTree = "<group>"; };
+		B7162B0C15AE6052007A23BD /* poker.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = poker.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +64,8 @@
 			isa = PBXGroup;
 			children = (
 				B7162B0215AE5CB8007A23BD /* main.cpp */,
+				B7162B0C15AE6052007A23BD /* poker.cpp */,
+				B7162B0B15AE5D03007A23BD /* poker.h */,
 				B7162B0415AE5CB8007A23BD /* Poker.1 */,
 			);
 			path = Poker;
@@ -118,6 +123,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B7162B0315AE5CB8007A23BD /* main.cpp in Sources */,
+				B7162B0D15AE6052007A23BD /* poker.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
